@@ -1,0 +1,30 @@
+.containerHome2{
+    display: flex;
+    height: 35vh;
+    width: 100%;
+}
+
+.cardArticle2{
+    width: 545px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.cardArticle2 h1{
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+
+.cardArticle2 p{
+    color: grey;
+    line-height: 20px;
+}
+
+#imgBotHome{
+    width: 410px;
+}

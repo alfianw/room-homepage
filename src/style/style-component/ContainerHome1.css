@@ -1,0 +1,68 @@
+.container1 {
+    height: 65vh;
+    width: 100%;
+    display: flex;
+}
+
+#imgHead {
+    height: 65vh;
+    width: 60%;
+    object-fit: cover;
+}
+
+.warpArticle1{
+    width: 40%;
+    height: 60hv;
+    box-sizing: border-box;
+}
+
+.cardArticle1{
+    box-sizing: border-box;
+    justify-content: center;
+    width: auto;
+    padding: 0 70px;
+    height: 353px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.cardArticle1 h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.cardArticle1 p{
+    font-size: 16px;
+    color: gray;
+    width: 400px;
+    line-height: 20px;
+}
+
+.cardArticle1 a{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 15px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.cardArticle1 a:hover{
+    color: grey;
+}
+
+
+#btnHead{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s
+}
+
+#btnHead:hover{
+    background-color: gray;
+}

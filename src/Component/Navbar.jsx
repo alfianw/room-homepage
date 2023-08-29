@@ -7,7 +7,7 @@ const Navbar =()=>{
     return(
         <nav>
             <h1>room</h1>
-            <Link>home</Link>
+            <Link to="/">home</Link>
             <Link>shop</Link>
             <Link>about</Link>
             <Link>contact</Link>

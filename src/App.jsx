@@ -9,11 +9,10 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename='/room-homepage'>
     <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}>
-
         </Route>
       </Routes>
     </BrowserRouter>
