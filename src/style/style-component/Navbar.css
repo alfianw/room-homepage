@@ -9,6 +9,14 @@ nav{
     height: 60px;
 }
 
+.navList{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    box-sizing: border-box;
+}
+
 nav a{
     text-decoration: none;
     color: white;
@@ -18,4 +26,61 @@ nav a{
 nav a:hover{
     border-bottom: 1px solid white;
     padding-bottom: 10px;
+}
+
+.btnNav{
+    display: none;
+}
+
+@media(max-width: 415px){
+
+    nav{
+        z-index: 999;
+        position: relative;
+        display: flex;
+        position: fixed;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+        box-sizing: border-box;
+        height: 100px;
+        width: 100%;
+    }
+    
+    .navList{
+        color: black;
+        height: 100px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        box-sizing: border-box;
+        padding-left: 60px;
+        position: absolute;
+        left: -400px;
+        transition: 1s;
+    }
+
+    .navList.active{
+        left: 0px;
+    }
+    
+    nav a{
+        color: black;
+    }
+    
+    nav a:hover{
+        border-bottom: 1px solid grey;
+        padding-bottom: 0px;
+    }
+    
+    .btnNav{
+        display: block;
+        background: none;
+        border: none;
+        position: absolute;
+        margin-left: 20px;
+        z-index: 1;
+    }
+
 }
